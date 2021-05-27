@@ -1,101 +1,66 @@
-#contact iframe {
+#welcome {
+    color: darkred;
+    bottom: 0;
+    background-color: linear-gradient(#ffffff, hotpink);
+    display: table;
     width: 100%;
+    height: 100%;
+    z-index: 9;
 }
 
-.contact_1 h3 {
-    display: inline;
-}
-
-.contact_1 a {
-    text-shadow: none;
-}
-
-input {
-    background: grey
-}
-
-.travel_maindiv {
-    border: 1px soild #c7c7c7;
-    padding-left: 0px;
-    padding-right: 0px;
-    float: none;
-
-}
-
-.travel_maindiv img {
+#video {
     width: 100%;
-
-
+    padding: 5px;
 }
 
-.travel_maindiv hr {
-    width: 230px;
+#map {
+    float: left;
 }
 
-.travel_maindiv h5,
-.travel_maindiv p {
-    margin-left: 20px;
+#achievementsID {
+    padding-bottom: 10px;
 }
 
 .movie_head {
     font-size: 20px;
     padding: 6px 22px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 15px;
-}
-
-.movie_head i {
-    float: right;
-
-}
-
-.movie_text span {
-    color: #ff7700;
-}
-
-.environment_li {
-    margin-top: 13px;
-}
-
-.environment_li h4 {
-    border-bottom: 1px solid white;
-    padding: 8px;
-}
-
-.environment_li img {
-    border-radius: 25px;
-}
-
-.environment_li p {
-    margin-top: 10px;
-}
-
-.modal-content {
-    margin-top: 100px;
-}
-
-.img_modal {
+    width: 100px;
     display: inline-block;
 }
 
-.p_modal {
-    margin-top: 10px;
+.movie1 {
+    float: right;
 }
 
-.modal-body {
-    text-align: center;
+.movie_text span {
+    color: orange;
 }
 
-.book {
-    cursor: pointer;
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.book hr {
-    margin-bottom: 10px;
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
 }
 
-.header_entrepreneur {
-    line-height: 2px;
-    color:darkcyan;
-    background-color: yellow;
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
 }
